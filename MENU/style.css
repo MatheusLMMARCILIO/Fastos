@@ -72,90 +72,24 @@ li {
     font-weight: 600;
 }
 
-.grillFree {
-    background-image: url('IMAGE/banner.webp');
-    background-size: cover;
+/*****************************************/
+
+.menupage {
+    padding-top: 110px;
     width: 100%;
-    height: 800px;
-    padding-top: 66px;
-    background-repeat: no-repeat;
+    height: 400px;
+    background-image: url(/IMAGE/bannerMenu.webp);
     background-position: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding-left: 400px;
-
-
-}
-
-.text h1 {
-    font-size: 115px;
-    color: white;
-    font-family: 'Monstserrrat', sans-serif;
-    font-weight: 900;
-}
-
-.text p {
-    font-size: 16px;
-    color: white;
-    font-family: 'Monstserrrat', sans-serif;
-}
-
-.allBtns {
-    width: 990px;
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    margin-top: 50px;
+    justify-content: center;
 }
 
-.btnBuy {
-    margin-right: 20px;
-}
-
-.btnBuy button {
-    width: 197px;
-    height: 64px;
-    background-color: #ec3333;
-    border: 1px solid #ec3333;
-    border-radius: 10px;
-    transition: 0.8s;
-    cursor: pointer;
-}
-
-.btnBuy button:hover {
-    background-color: black;
-    border: 1px solid black;
-}
-
-.btnBuy a {
-    font-size: 16px;
-    font-weight: 600;
+.menuText h1 {
+font-weight: 800;
+    font-size: 100px;
     color: white;
-    text-decoration: none;
-}
-
-.btnAllBurguers button {
-    width: 236px;
-    height: 64px;
-    border: 2px solid white;
-    border-radius: 10px;
-    background-color: rgb(255, 0, 0, 0.0);
-    transition: 0.8s;
-    cursor: pointer;
-}
-
-.btnAllBurguers button:hover {
-    background-color: #ec3333;
-    border: 1px solid #ec3333;
-}
-
-.btnAllBurguers a {
-    font-size: 16px;
-    font-weight: 600;
-    color: white;
-    text-decoration: none;
 }
 
 .ChosseEnjoy {
@@ -252,70 +186,6 @@ li {
 
 .allHamburguers {
     display: flex;
-}
-
-.fromChef {
-    width: 100%;
-    height: 600px;
-    background-color: #FF8A00;
-    display: flex;
-}
-
-.fromChefText {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.fromChefText h1 {
-    font-size: 45px;
-    color: white;
-    font-weight: 900;
-    margin-bottom: 20px;
-}
-
-.fromChefText p {
-    font-size: 16px;
-    color: white;
-    font-weight: 500;
-    margin-bottom: 50px;
-}
-
-.btnChefLove button {
-    width: 244px;
-    height: 64px;
-    background-color: #ec3333;
-    border: 1px solid #ec3333;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 0.8s;
-}
-
-.btnChefLove button:hover {
-    background-color: #000000;
-    border: 1px solid black;
-}
-
-.btnChefLove a {
-    font-size: 16px;
-    color: white;
-    font-weight: 600;
-    text-decoration: none;
-}
-
-.fromChefImg {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-}
-
-.left {
-    margin-right: 30px;
 }
 
 .delivery {

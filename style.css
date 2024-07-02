@@ -74,20 +74,18 @@ li {
 
 .grillFree {
     background-image: url('IMAGE/banner.webp');
-    background-size: cover;
+    background-size: cover; /* Ajusta a imagem para cobrir toda a área */
+    background-position: center; /* Centraliza a imagem na tela */
     width: 100%;
-    height: 800px;
-    padding-top: 66px;
-    background-repeat: no-repeat;
-    background-position: center;
+    height: 100vh; /* 100% da altura da viewport */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     padding-left: 400px;
-
-
+    overflow-x: hidden; /* Esconde a barra de rolagem horizontal */
 }
+
 
 .text h1 {
     font-size: 115px;
